@@ -13,7 +13,7 @@ export default function Categories({
   }[];
 }) {
   return (
-    <div className="flex flex-col items-start justify-center md:flex-row md:justify-around">
+    <div className="flex flex-col items-start justify-center gap-4 md:flex-row md:justify-around">
       {categories.map((category) => {
         return (
           <Link
