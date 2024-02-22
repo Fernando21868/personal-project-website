@@ -21,7 +21,7 @@ export default async function Page() {
         breadcrumbs={[
           { label: 'Products', href: '/dashboard/products' },
           {
-            label: 'Create Invoice',
+            label: 'Create Product',
             href: '/dashboard/products/create',
             active: true,
           },
